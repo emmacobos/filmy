@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+}
+.movie-search{
+    height: 50vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar{
+    background-color: #000;
+}
+.navbar a{
+    color: white;
+    font-family: 'Fascinate', cursive;
+    font-size: 32px;
+}
+.navbar a:hover{
+    color: white;
+}
+.lightsaber{
+    background-image: url("../../public/lightsaber.png");
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.lightsaber form{
+    margin-bottom: 50px;
+    width: 55%;
+    height: 50px;
+}
+.lightsaber form input{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 30px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: rgb(255, 255, 255);    
+}
+.lightsaber h1{
+    margin-bottom: 40px;
+}
+.lightsaber button{
+    background: rgb(255, 255, 255);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
