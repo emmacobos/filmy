@@ -1,16 +1,24 @@
 import React from 'react';
-import Main from './Components/Main';
+import Home from './Pages/Home';
+import Kids from './Pages/Kids';
+import NavBar from './Components/NavBar/NavBar';
 import './App.css';
-import Card from "./Components/Card/Card"
-import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 
 function App() {
   return (
-    <>
-      <Main/>
-    </>
+    <div className='App'>
+      <BrowserRouter>
+      <NavBar/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Kids' element={<Kids/>}/>
+        </Routes>
+      </BrowserRouter>
+      
+    </div>
   );
 }
 

@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #000;
+}
+.navbar a{
+    color: white;
+    font-family: 'Fascinate', cursive;
+    font-size: 32px;
+}
+.navbar a:hover{
+    color: white;
+}
