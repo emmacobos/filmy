@@ -1,5 +1,10 @@
-.card{
+.card-container .card{
     width: 18rem;
     color: white;
     border: none!important;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.card .text-muted{
+    color: white!important;
 }

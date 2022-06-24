@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Card from "../Card/Card";
-import "./SearchClass.css"
+import "./SearchClass.css";
+import StarRating from "../StarRating/StarRating.js";
 
 let url_api= "https://api.themoviedb.org/3";
 let api_key= "&api_key=4ec5b01dec20d59d907f30ac0366bb10";
@@ -44,6 +45,7 @@ function Search () {
                             <button className="button" type="submit" onClick={searching}><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
                         </form>
                     </div>
+                    <StarRating/>
                 </div>
             </div>
             <div className="container card-container">
@@ -61,5 +63,4 @@ function Search () {
         </>
     )
 }
-
 export default Search;
