@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     background-color: #000;
-    color: white;
 }
 .movie-search{
     height: 50vh;
@@ -48,6 +47,9 @@
 }
 .lightsaber h1{
     margin-bottom: 40px;
+    color: white;
+    font-family: 'Fascinate', cursive;
+    letter-spacing: 4px;
 }
 .lightsaber button{
     background: rgb(255, 255, 255);
@@ -60,4 +62,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.button{
+    padding: 10px;
+    border: none;
+}
+.button svg{
+    background: white;
+}
+.button:hover{
+    background-color: white;
 }
